@@ -90,12 +90,12 @@ window.siteContent = {
       excerpt: "A story of pursuing cryosphere hydrology research in Finland and monitoring river ice through integrated observations.",
       url: "https://digitalwaters.fi/from-the-tropic-of-cancer-to-the-arctic-circle-my-phd-journey-to-finland/"
     },
-    {
-      category: "ARTICLE TEMPLATE",
-      date: "FUTURE UPDATE",
-      title: "Add a new research note or field update",
-      excerpt: "A ready-to-edit article template for your next project note, dataset release or field story.",
-      url: "articles/template.html"
-    }
+    // {
+    //   category: "ARTICLE TEMPLATE",
+    //   date: "FUTURE UPDATE",
+    //   title: "Add a new research note or field update",
+    //   excerpt: "A ready-to-edit article template for your next project note, dataset release or field story.",
+    //   url: "articles/template.html"
+    // }
   ]
 };
