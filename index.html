@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#081c2b">
+    <title>Jiahui (Cris) Qiu | Cryosphere Hydrology & Remote Sensing</title>
+    <meta
+      name="description"
+      content="Jiahui (Cris) Qiu is a doctoral researcher at the University of Oulu studying cryospheric hydrology and environmental change through remote sensing and machine learning."
+    >
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="Back to home">
+          <span class="brand-mark"></span>
+          <span id="nav-name">Jiahui (Cris) Qiu</span>
+        </a>
+        <button class="menu-button" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span>
+          <span class="sr-only">Open navigation</span>
+        </button>
+        <div id="nav-links" class="nav-links">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#writing">Writing</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow" id="hero-field">Cryosphere Hydrology / Environmental Remote Sensing</p>
+            <h1>
+              <span id="hero-name">Jiahui (Cris) Qiu</span>
+              <span class="hero-role" id="hero-role">Doctoral Researcher in Cryosphere Hydrology</span>
+            </h1>
+            <p class="hero-summary" id="hero-summary"></p>
+            <div class="hero-actions">
+              <a class="button primary" href="#research">Explore My Research</a>
+              <a class="button secondary" id="cv-link" href="#" target="_blank" rel="noreferrer">CV Available Soon</a>
+            </div>
+            <dl class="metrics" id="metrics"></dl>
+          </div>
+          <div class="hero-visual">
+            <img id="profile-photo"
+              src="assets/hero-ice-sheet.svg"
+              alt="Stylized Greenland Ice Sheet meltwater pathways"
+            >
+            <aside class="observation-card">
+              <span>Research Focus</span>
+              <strong>Greenland Meltwater</strong>
+              <p>Rivers · Lakes · Sea Ice</p>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="container split-layout">
+          <div>
+            <p class="section-tag">About</p>
+            <h2>Observing a changing cryosphere</h2>
+          </div>
+          <div class="about-copy">
+            <p id="about-text"></p>
+            <div class="profile-links" id="profile-links"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="research" class="section research-section">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-tag">Research</p>
+              <h2>Research Interests</h2>
+            </div>
+            <p>From ice-sheet meltwater to pan-Arctic freshwater and ice dynamics, observed with satellites, in situ data and intelligent models.</p>
+          </div>
+          <div id="research-cards" class="research-grid"></div>
+        </div>
+      </section>
+
+      <section class="image-break" aria-label="Cryosphere research visual">
+        <div class="container image-break-grid">
+          <img src="assets/arctic-water-network.svg" alt="Abstract Arctic river, lake and ice transition pathways">
+          <div class="image-break-copy">
+            <p class="section-tag">Field Notes</p>
+            <blockquote id="field-quote"></blockquote>
+            <p id="field-caption"></p>
+          </div>
+        </div>
+      </section>
+
+      <section id="publications" class="section publications-section">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-tag">Selected Work</p>
+              <h2>Selected Publications</h2>
+            </div>
+            <a class="text-link" id="scholar-link" href="#" target="_blank" rel="noreferrer">View Google Scholar</a>
+          </div>
+          <div id="publication-list" class="publication-list"></div>
+        </div>
+      </section>
+
+      <section id="writing" class="section writing-section">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-tag">Writing</p>
+              <h2>Writing & Updates</h2>
+            </div>
+            <p>Research stories, field observations, data visualization and outreach.</p>
+          </div>
+          <div id="article-list" class="article-grid"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-card">
+          <div>
+            <p class="section-tag">Contact</p>
+            <h2>Collaboration & Contact</h2>
+            <p id="contact-intro"></p>
+          </div>
+          <div class="contact-actions">
+            <div class="email-links" id="email-links"></div>
+            <div id="social-links" class="social-links"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> <span id="footer-name">Jiahui (Cris) Qiu</span>. All rights reserved.</p>
+        <p>Designed for cryosphere research and open science.</p>
+      </div>
+    </footer>
+
+    <script src="js/content.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
