@@ -89,7 +89,7 @@ window.siteContent = {
       title: "From the Tropic of Cancer to the Arctic Circle: My PhD Journey to Finland",
       excerpt: "A story of pursuing cryosphere hydrology research in Finland and monitoring river ice through integrated observations.",
       url: "https://digitalwaters.fi/from-the-tropic-of-cancer-to-the-arctic-circle-my-phd-journey-to-finland/"
-    },
+    }
     // {
     //   category: "ARTICLE TEMPLATE",
     //   date: "FUTURE UPDATE",
