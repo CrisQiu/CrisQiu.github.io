@@ -11,10 +11,10 @@ window.siteContent = {
     summary:
       "Monitoring hydrological and environmental change across the cryosphere through multi-source remote sensing, in situ observations, machine learning and deep learning.",
     about:
-      "I am a Doctoral Researcher and PhD student in the Digital Waters (DIWA) Flagship at the University of Oulu, Finland. My research investigates hydrological and environmental change in the cryosphere, spanning polar ice sheets, alpine snow and ice, and the pan-Arctic region. I integrate multi-source remote sensing with in situ observations and develop machine-learning and deep-learning approaches to monitor rapidly changing cold-region environments.",
-    photoUrl: "assets/hero-ice-sheet.svg",
-    photoAlt: "Stylized Greenland Ice Sheet meltwater pathways, awaiting a personal portrait",
-    cvUrl: "",
+      "I am a Doctoral Researcher (PhD student) in the Digital Waters (DIWA) Flagship at the University of Oulu, Finland. My research investigates hydrological and environmental change in the cryosphere, spanning polar ice sheets, alpine snow and ice, and the pan-Arctic region. I integrate multi-source remote sensing with in situ observations and develop machine-learning and deep-learning approaches to monitor rapidly changing cold-region environments.",
+    photoUrl: "assets/profile-photo.jpg",
+    photoAlt: "Hiking in Zakopane, Poland",
+    cvUrl: "files/Jiahui-Cris-Qiu-CV.pdf",
     scholarUrl: "https://scholar.google.com/citations?user=pS-WOdMAAAAJ&hl=en",
     emails: [
       { label: "University email", address: "jiahui.qiu@oulu.fi" },
@@ -72,7 +72,15 @@ window.siteContent = {
       journal: "Remote Sensing of Environment, 328, 114896",
       url: "https://doi.org/10.1016/j.rse.2025.114896",
       type: "Article"
-    }
+    },
+    {
+      year: "2024",
+      title: "Contrasting lake changes in Tibet revealed by recent multi-modal satellite observations",
+      authors: "Jiangjun Ran, Lin Liu, Guoqing Zhang, CK Shum, Jiahui Qiu, Ruigang Hu, Jianping Li, Junhuan Peng, Cheinway Hwang, Yi Luan, Yue Sun, Min Xu, Dingmei Chen, Jun Ding, and Yulong Zhong",
+      journal: "Science of the Total Environment, 908, 168342",
+      url: "https://doi.org/10.1016/j.scitotenv.2023.168342",
+      type: "Article"
+    },
   ],
   articles: [
     {
