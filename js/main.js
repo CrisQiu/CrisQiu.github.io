@@ -26,6 +26,7 @@
   setText("about-text", profile.about);
   setText("field-quote", content.fieldNote.quote);
   setText("field-caption", content.fieldNote.caption);
+  setText("interest-text", content.personalInterest.text);
   setText("contact-intro", profile.contactIntro);
   setText("footer-name", profile.name);
   setText("year", new Date().getFullYear());
@@ -127,6 +128,13 @@
       (item.url.indexOf("http") === 0 ? "_blank" : "_self") +
       '" rel="noreferrer">Read more →</a>';
     articleList.appendChild(article);
+  });
+
+  const interestItems = document.getElementById("interest-items");
+  content.personalInterest.items.forEach(function (item) {
+    const pill = document.createElement("span");
+    pill.textContent = item;
+    interestItems.appendChild(pill);
   });
 
   const header = document.querySelector(".site-header");

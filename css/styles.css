@@ -501,6 +501,51 @@ h2 {
   font-weight: 700;
 }
 
+.life-section {
+  padding-top: 18px;
+  padding-bottom: 74px;
+}
+
+.life-card {
+  display: grid;
+  grid-template-columns: 0.75fr 1.25fr;
+  gap: 58px;
+  padding: 46px 50px;
+  border: 1px solid rgba(25, 107, 134, 0.18);
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(circle at 7% 4%, rgba(34, 162, 197, 0.16), transparent 28%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.84), rgba(233, 246, 247, 0.88));
+  box-shadow: 0 18px 54px rgba(8, 45, 60, 0.08);
+}
+
+.life-card h2 {
+  max-width: 390px;
+}
+
+.life-copy p {
+  margin-bottom: 26px;
+  font-size: 1.03rem;
+}
+
+.interest-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 11px;
+}
+
+.interest-items span {
+  padding: 9px 14px;
+  border: 1px solid rgba(25, 107, 134, 0.18);
+  border-radius: 999px;
+  color: var(--glacial);
+  background: rgba(255, 255, 255, 0.68);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 .contact-section {
   padding-top: 40px;
 }
@@ -578,6 +623,7 @@ h2 {
   .hero-grid,
   .split-layout,
   .image-break-grid,
+  .life-card,
   .contact-card {
     grid-template-columns: 1fr;
   }
