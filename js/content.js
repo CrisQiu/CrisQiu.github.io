@@ -11,7 +11,7 @@ window.siteContent = {
     summary:
       "Monitoring hydrological and environmental change across the cryosphere through multi-source remote sensing, in situ observations, machine learning and deep learning.",
     about:
-      "I am a Doctoral Researcher (PhD student) in the Digital Waters (DIWA) ßFlagship at the University of Oulu, Finland. My research investigates hydrological and environmental change in the cryosphere, spanning polar ice sheets, alpine snow and ice, and the pan-Arctic region. I integrate multi-source remote sensing with in situ observations and develop machine-learning and deep-learning approaches to monitor rapidly changing cold-region environments.",
+      "I am a Doctoral Researcher (PhD student) in the Digital Waters (DIWA) Flagship at the University of Oulu, Finland. My research investigates hydrological and environmental change in the cryosphere, spanning polar ice sheets, alpine snow and ice, and the pan-Arctic region. I integrate multi-source remote sensing with in situ observations and develop machine-learning and deep-learning approaches to monitor rapidly changing cold-region environments.",
     photoUrl: "assets/profile-photo.jpg",
     photoAlt: "Hiking in Zakopane, Poland",
     cvUrl: "files/Jiahui-Cris-Qiu-CV.pdf",
